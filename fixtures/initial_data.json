@@ -1,0 +1,78 @@
+[
+    {
+        "model": "inventario.conversioncategory",
+        "pk": 1,
+        "fields": {
+            "name": "longitud",
+            "description": "Unidades de medida para longitudes."
+        }
+    },
+    {
+        "model": "inventario.conversioncategory",
+        "pk": 2,
+        "fields": {
+            "name": "peso",
+            "description": "Unidades de medida para peso."
+        }
+    },
+    {
+        "model": "inventario.unit",
+        "pk": 1,
+        "fields": {
+            "category": 1,
+            "name": "metros",
+            "symbol": "m",
+            "conversion_factor": 1
+        }
+    },
+    {
+        "model": "inventario.unit",
+        "pk": 2,
+        "fields": {
+            "category": 1,
+            "name": "cent\u00edmetros",
+            "symbol": "cm",
+            "conversion_factor": 100
+        }
+    },
+    {
+        "model": "inventario.unit",
+        "pk": 3,
+        "fields": {
+            "category": 2,
+            "name": "kilogramos",
+            "symbol": "kg",
+            "conversion_factor": 1
+        }
+    },
+    {
+        "model": "inventario.unit",
+        "pk": 4,
+        "fields": {
+            "category": 2,
+            "name": "gramos",
+            "symbol": "g",
+            "conversion_factor": 1000
+        }
+    },
+    {
+        "model": "inventario.product",
+        "pk": 1,
+        "fields": {
+            "name": "Cemento",
+            "description": "Sacos de cemento para construcci\u00f3n.",
+            "base_unit": 3,
+            "stock": 500
+        }
+    },
+    {
+        "model": "inventario.product",
+        "pk": 2,
+        "fields": {
+            "name": "Clavos",
+            "description": "Caja de clavos de varios tama\u00f1os.",
+            "base_unit": 4,
+            "stock": 2000
+        }
+    }
+]
