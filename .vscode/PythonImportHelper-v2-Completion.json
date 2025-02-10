@@ -1,0 +1,819 @@
+[
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "Unit",
+        "importPath": "inventario.models",
+        "description": "inventario.models",
+        "isExtraImport": true,
+        "detail": "inventario.models",
+        "documentation": {}
+    },
+    {
+        "label": "Unit",
+        "importPath": "inventario.models",
+        "description": "inventario.models",
+        "isExtraImport": true,
+        "detail": "inventario.models",
+        "documentation": {}
+    },
+    {
+        "label": "Unit",
+        "importPath": "inventario.models",
+        "description": "inventario.models",
+        "isExtraImport": true,
+        "detail": "inventario.models",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "inventario.models",
+        "description": "inventario.models",
+        "isExtraImport": true,
+        "detail": "inventario.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "inventario.models",
+        "description": "inventario.models",
+        "isExtraImport": true,
+        "detail": "inventario.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "inventario.models",
+        "description": "inventario.models",
+        "isExtraImport": true,
+        "detail": "inventario.models",
+        "documentation": {}
+    },
+    {
+        "label": "Unit",
+        "importPath": "inventario.models",
+        "description": "inventario.models",
+        "isExtraImport": true,
+        "detail": "inventario.models",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "inventario.models",
+        "description": "inventario.models",
+        "isExtraImport": true,
+        "detail": "inventario.models",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "ProductoSerializer",
+        "importPath": "inventario.Views.ListarProductos.serializers",
+        "description": "inventario.Views.ListarProductos.serializers",
+        "isExtraImport": true,
+        "detail": "inventario.Views.ListarProductos.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "Sum",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls.conf",
+        "description": "django.urls.conf",
+        "isExtraImport": true,
+        "detail": "django.urls.conf",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "inventario.migrations.0001_initial",
+        "description": "inventario.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ConversionCategory',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=50, unique=True)),",
+        "detail": "inventario.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "inventario.migrations.0002_remove_product_base_unit_remove_product_stock_and_more",
+        "description": "inventario.migrations.0002_remove_product_base_unit_remove_product_stock_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('inventario', '0001_initial'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='product',\n            name='base_unit',\n        ),\n        migrations.RemoveField(",
+        "detail": "inventario.migrations.0002_remove_product_base_unit_remove_product_stock_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "inventario.migrations.0003_productunit_public_price_productunit_supplier_price",
+        "description": "inventario.migrations.0003_productunit_public_price_productunit_supplier_price",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('inventario', '0002_remove_product_base_unit_remove_product_stock_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='productunit',\n            name='public_price',\n            field=models.DecimalField(blank=True, decimal_places=2, max_digits=10, null=True),\n        ),",
+        "detail": "inventario.migrations.0003_productunit_public_price_productunit_supplier_price",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "inventario.migrations.0004_productunit_is_main",
+        "description": "inventario.migrations.0004_productunit_is_main",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('inventario', '0003_productunit_public_price_productunit_supplier_price'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='productunit',\n            name='is_main',\n            field=models.BooleanField(default=False),\n        ),",
+        "detail": "inventario.migrations.0004_productunit_is_main",
+        "documentation": {}
+    },
+    {
+        "label": "UnitSerializer",
+        "kind": 6,
+        "importPath": "inventario.Views.Cantidades.serializers",
+        "description": "inventario.Views.Cantidades.serializers",
+        "peekOfCode": "class UnitSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Unit\n        fields = '__all__'\n    def to_representation(self, instance):\n        data = super().to_representation(instance)\n        data['category'] = instance.category.name\n        data[\"complete_name\"] = data[\"name\"] + \" (\" + data[\"category\"] + \")\"\n        return data",
+        "detail": "inventario.Views.Cantidades.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "CantidadesView",
+        "kind": 6,
+        "importPath": "inventario.Views.Cantidades.view",
+        "description": "inventario.Views.Cantidades.view",
+        "peekOfCode": "class CantidadesView(ModelViewSet):\n    serializer_class = UnitSerializer\n    queryset = Unit.objects.all()\n    ordering = ['id']",
+        "detail": "inventario.Views.Cantidades.view",
+        "documentation": {}
+    },
+    {
+        "label": "UnitConversionSerializer",
+        "kind": 6,
+        "importPath": "inventario.Views.ConvertUnitsAPIView.serializers",
+        "description": "inventario.Views.ConvertUnitsAPIView.serializers",
+        "peekOfCode": "class UnitConversionSerializer(serializers.Serializer):\n    from_unit = serializers.PrimaryKeyRelatedField(queryset=Unit.objects.all())\n    to_unit = serializers.PrimaryKeyRelatedField(queryset=Unit.objects.all())\n    value = serializers.FloatField()\n    def validate(self, data):\n        from_unit = data[\"from_unit\"]\n        to_unit = data[\"to_unit\"]\n        if from_unit.category != to_unit.category:\n            raise serializers.ValidationError(\"Las unidades deben pertenecer a la misma categoría.\")\n        return data",
+        "detail": "inventario.Views.ConvertUnitsAPIView.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ConvertUnitsAPIView",
+        "kind": 6,
+        "importPath": "inventario.Views.ConvertUnitsAPIView.view",
+        "description": "inventario.Views.ConvertUnitsAPIView.view",
+        "peekOfCode": "class ConvertUnitsAPIView(APIView):\n    def post(self, request):\n        serializer = UnitConversionSerializer(data=request.data)\n        if serializer.is_valid():\n            converted_value = serializer.convert()\n            return Response({\"converted_value\": converted_value}, status=status.HTTP_200_OK)\n        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)",
+        "detail": "inventario.Views.ConvertUnitsAPIView.view",
+        "documentation": {}
+    },
+    {
+        "label": "StockUnitSerializer",
+        "kind": 6,
+        "importPath": "inventario.Views.ListarProductos.serializers",
+        "description": "inventario.Views.ListarProductos.serializers",
+        "peekOfCode": "class StockUnitSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = StockUnit\n        fields = '__all__'\nclass ConversionCategorySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ConversionCategory\n        fields = '__all__'\nclass UnitSerializer(serializers.ModelSerializer):\n    category = ConversionCategorySerializer()",
+        "detail": "inventario.Views.ListarProductos.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ConversionCategorySerializer",
+        "kind": 6,
+        "importPath": "inventario.Views.ListarProductos.serializers",
+        "description": "inventario.Views.ListarProductos.serializers",
+        "peekOfCode": "class ConversionCategorySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ConversionCategory\n        fields = '__all__'\nclass UnitSerializer(serializers.ModelSerializer):\n    category = ConversionCategorySerializer()\n    class Meta:\n        model = Unit\n        fields = '__all__'\nclass ProductUnitSerializer(serializers.ModelSerializer):",
+        "detail": "inventario.Views.ListarProductos.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UnitSerializer",
+        "kind": 6,
+        "importPath": "inventario.Views.ListarProductos.serializers",
+        "description": "inventario.Views.ListarProductos.serializers",
+        "peekOfCode": "class UnitSerializer(serializers.ModelSerializer):\n    category = ConversionCategorySerializer()\n    class Meta:\n        model = Unit\n        fields = '__all__'\nclass ProductUnitSerializer(serializers.ModelSerializer):\n    unit = UnitSerializer()\n    class Meta:\n        model = ProductUnit\n        fields = '__all__'",
+        "detail": "inventario.Views.ListarProductos.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProductUnitSerializer",
+        "kind": 6,
+        "importPath": "inventario.Views.ListarProductos.serializers",
+        "description": "inventario.Views.ListarProductos.serializers",
+        "peekOfCode": "class ProductUnitSerializer(serializers.ModelSerializer):\n    unit = UnitSerializer()\n    class Meta:\n        model = ProductUnit\n        fields = '__all__'\nclass ProductoSerializer(serializers.ModelSerializer):\n    units = ProductUnitSerializer(many=True, read_only=True)\n    stock_units = StockUnitSerializer(many=True, read_only=True)\n    total_stock = serializers.IntegerField(read_only=True)\n    class Meta:",
+        "detail": "inventario.Views.ListarProductos.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProductoSerializer",
+        "kind": 6,
+        "importPath": "inventario.Views.ListarProductos.serializers",
+        "description": "inventario.Views.ListarProductos.serializers",
+        "peekOfCode": "class ProductoSerializer(serializers.ModelSerializer):\n    units = ProductUnitSerializer(many=True, read_only=True)\n    stock_units = StockUnitSerializer(many=True, read_only=True)\n    total_stock = serializers.IntegerField(read_only=True)\n    class Meta:\n        model = Product\n        fields = '__all__'",
+        "detail": "inventario.Views.ListarProductos.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ListarProductos",
+        "kind": 6,
+        "importPath": "inventario.Views.ListarProductos.view",
+        "description": "inventario.Views.ListarProductos.view",
+        "peekOfCode": "class ListarProductos(APIView):\n    def get(self, request):\n        productos = Product.objects.all()\n        serializer = ProductoSerializer(productos, many=True)\n        return Response(serializer.data)",
+        "detail": "inventario.Views.ListarProductos.view",
+        "documentation": {}
+    },
+    {
+        "label": "StockOperationSerializer",
+        "kind": 6,
+        "importPath": "inventario.Views.StockAPIView.serializers",
+        "description": "inventario.Views.StockAPIView.serializers",
+        "peekOfCode": "class StockOperationSerializer(serializers.Serializer):\n    product_id = serializers.PrimaryKeyRelatedField(queryset=Product.objects.all())\n    unit_id = serializers.PrimaryKeyRelatedField(queryset=Unit.objects.all())\n    quantity = serializers.FloatField()\n    def validate(self, data):\n        product = data[\"product_id\"]\n        unit = data[\"unit_id\"]\n        if product.base_unit.category != unit.category:\n            raise serializers.ValidationError(\"La unidad no corresponde a la categoría del producto.\")\n        return data",
+        "detail": "inventario.Views.StockAPIView.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "StockAPIView",
+        "kind": 6,
+        "importPath": "inventario.Views.StockAPIView.view",
+        "description": "inventario.Views.StockAPIView.view",
+        "peekOfCode": "class StockAPIView(APIView):\n    def post(self, request, operation ):\n        \"\"\"\n        operation: \"add\" o \"remove\"\n        \"\"\"\n        serializer = StockOperationSerializer(data=request.data)\n        if serializer.is_valid():\n            try:\n                if operation == \"add\":\n                    serializer.add_stock()",
+        "detail": "inventario.Views.StockAPIView.view",
+        "documentation": {}
+    },
+    {
+        "label": "VenderProducto",
+        "kind": 6,
+        "importPath": "inventario.Views.VenderProducto.view",
+        "description": "inventario.Views.VenderProducto.view",
+        "peekOfCode": "class VenderProducto(APIView):\n    def post(self, request):\n        data = request.data\n        quantity = data['quantity']\n        stock_id = data['stock_id'] if 'stock_id' in data else None\n        unit_id = data['unit_id']\n        Product.objects.get(id=data['producto_id']).remove_stock(\n            Decimal(quantity), stock_id, unit_id\n        )\n        return Response({\"message\": \"Operación realizada con éxito.\"}, status=status.HTTP_200_OK)",
+        "detail": "inventario.Views.VenderProducto.view",
+        "documentation": {}
+    },
+    {
+        "label": "InventarioConfig",
+        "kind": 6,
+        "importPath": "inventario.apps",
+        "description": "inventario.apps",
+        "peekOfCode": "class InventarioConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'inventario'",
+        "detail": "inventario.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ConversionCategory",
+        "kind": 6,
+        "importPath": "inventario.models",
+        "description": "inventario.models",
+        "peekOfCode": "class ConversionCategory(models.Model):\n    name = models.CharField(max_length=50, unique=True)  # Ejemplo: \"longitud\", \"peso\"\n    description = models.TextField(blank=True, null=True)  # Descripción opcional\n    def __str__(self):\n        return self.name\nclass Unit(models.Model):\n    category = models.ForeignKey(ConversionCategory, on_delete=models.CASCADE, related_name=\"units\")\n    name = models.CharField(max_length=50, unique=True)  # Ejemplo: \"metros\", \"kilogramos\"\n    symbol = models.CharField(max_length=10, unique=True)  # Ejemplo: \"m\", \"kg\"\n    conversion_factor = models.FloatField()  # Factor respecto a una unidad base (como metros o kilogramos)",
+        "detail": "inventario.models",
+        "documentation": {}
+    },
+    {
+        "label": "Unit",
+        "kind": 6,
+        "importPath": "inventario.models",
+        "description": "inventario.models",
+        "peekOfCode": "class Unit(models.Model):\n    category = models.ForeignKey(ConversionCategory, on_delete=models.CASCADE, related_name=\"units\")\n    name = models.CharField(max_length=50, unique=True)  # Ejemplo: \"metros\", \"kilogramos\"\n    symbol = models.CharField(max_length=10, unique=True)  # Ejemplo: \"m\", \"kg\"\n    conversion_factor = models.FloatField()  # Factor respecto a una unidad base (como metros o kilogramos)\n    def __str__(self):\n        return f\"{self.name} ({self.symbol})\"\n    def convert_to(self, target_unit, value, decimal_places=2):\n        \"\"\"\n        Convierte un valor de esta unidad a otra unidad de la misma categoría.",
+        "detail": "inventario.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "inventario.models",
+        "description": "inventario.models",
+        "peekOfCode": "class Product(models.Model):\n    name = models.CharField(max_length=100)\n    description = models.TextField(blank=True, null=True)\n    def __str__(self):\n        return self.name\n    @property\n    def total_stock(self):\n        \"\"\"\n        Calcula el stock total sumando las cantidades restantes de todas las unidades.\n        \"\"\"",
+        "detail": "inventario.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductUnit",
+        "kind": 6,
+        "importPath": "inventario.models",
+        "description": "inventario.models",
+        "peekOfCode": "class ProductUnit(models.Model):\n    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name=\"units\")\n    unit = models.ForeignKey(Unit, on_delete=models.CASCADE)\n    quantity = models.FloatField()\n    public_price = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True)\n    supplier_price = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True)\n    is_main = models.BooleanField(default=False)\n    def __str__(self):\n        return f\"{self.quantity} {self.unit.symbol} de {self.product.name} \"\n    def save(self, *args, **kwargs):",
+        "detail": "inventario.models",
+        "documentation": {}
+    },
+    {
+        "label": "StockUnit",
+        "kind": 6,
+        "importPath": "inventario.models",
+        "description": "inventario.models",
+        "peekOfCode": "class StockUnit(models.Model):\n    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name=\"stock_units\")\n    original_quantity = models.DecimalField(max_digits=10, decimal_places=3)\n    remaining_quantity = models.DecimalField(max_digits=10, decimal_places=3)\n    is_cut = models.BooleanField(default=False)\n    def __str__(self):\n        return f\"{self.product.name} - {self.remaining_quantity}/{self.original_quantity}\"\n    def save(self, *args, **kwargs):\n        \"\"\"\n        Valida que los campos sean coherentes antes de guardar.",
+        "detail": "inventario.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "inventario.urls",
+        "description": "inventario.urls",
+        "peekOfCode": "urlpatterns = [\n    path('convert_units', ConvertUnitsAPIView.as_view(), name='convert_units'),\n    path('Cantidades/', CantidadesView.as_view({\n        'get': 'list',\n        'post': 'create',\n        'put': 'update',\n        'delete': 'destroy'\n    }), name='cantidades'),\n    path('Inventario/<operation>/', StockAPIView.as_view(), name='inventario'),\n    path('ListarProductos/', ListarProductos.as_view(), name='listar_productos'),",
+        "detail": "inventario.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "inventarioBack.asgi",
+        "description": "inventarioBack.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "inventarioBack.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-k7*q0sd91huvr@zh9=9@_6f1x9-0w#-p$(@z4k&(*ve!kpk7@0'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS=['*']\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-k7*q0sd91huvr@zh9=9@_6f1x9-0w#-p$(@z4k&(*ve!kpk7@0'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS=['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS=['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    \"corsheaders\",\n    'rest_framework',\n    'inventario',",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"corsheaders.middleware.CorsMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_METHODS",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "CORS_ALLOW_METHODS = (\n    \"DELETE\",\n    \"GET\",\n    \"OPTIONS\",\n    \"PATCH\",\n    \"POST\",\n    \"PUT\",\n)\nCORS_ORIGIN_ALLOW_ALL = True\nROOT_URLCONF = 'inventarioBack.urls'",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ORIGIN_ALLOW_ALL",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "CORS_ORIGIN_ALLOW_ALL = True\nROOT_URLCONF = 'inventarioBack.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "ROOT_URLCONF = 'inventarioBack.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'inventarioBack.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "inventarioBack.settings",
+        "description": "inventarioBack.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "inventarioBack.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "inventarioBack.urls",
+        "description": "inventarioBack.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('inventario/', include('inventario.urls')),\n]",
+        "detail": "inventarioBack.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "inventarioBack.wsgi",
+        "description": "inventarioBack.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "inventarioBack.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'inventarioBack.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
