@@ -729,7 +729,7 @@
         "kind": 5,
         "importPath": "inventarioBack.settings",
         "description": "inventarioBack.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'inventarioBack.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "peekOfCode": "WSGI_APPLICATION = 'inventarioBack.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n        'ATOMIC_REQUESTS': True,  # Activa transacciones automáticas\n    }\n}",
         "detail": "inventarioBack.settings",
         "documentation": {}
     },
@@ -738,7 +738,7 @@
         "kind": 5,
         "importPath": "inventarioBack.settings",
         "description": "inventarioBack.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n        'ATOMIC_REQUESTS': True,  # Activa transacciones automáticas\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [",
         "detail": "inventarioBack.settings",
         "documentation": {}
     },
