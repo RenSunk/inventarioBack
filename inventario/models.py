@@ -1,7 +1,8 @@
 from django.db import models
 from decimal import Decimal
 from django.db.models import Sum
-
+from rest_framework.response import Response
+from rest_framework import status
 # Create your models here.
 
 class ConversionCategory(models.Model):
@@ -48,7 +49,33 @@ class Unit(models.Model):
             converted_value = round(base_value, decimal_places)
 
         return converted_value
+    
+    def reverse_to(self, target_unit, value, decimal_places=2):
+        """
+        Convierte un valor de esta unidad a otra unidad de la misma categoría.
+        
+        Args:
+            target_unit (Unit): Unidad de destino.
+            value (float): Valor a convertir.
+            decimal_places (int): Número de decimales para redondear el resultado.
+        
+        Returns:
+            float: Valor convertido.
+        """
+        if self.category != target_unit.category:
+            raise ValueError("Las unidades deben pertenecer a la misma categoría.")
 
+        if target_unit.conversion_factor == 0:
+            raise ValueError("El factor de conversión de la unidad destino no puede ser cero.")
+
+        base_value = Decimal(value) / Decimal(self.conversion_factor)
+        #converted_value = base_value / Decimal(target_unit.conversion_factor)
+
+        # Redondear el resultado si se especifica
+        if decimal_places is not None:
+            converted_value = round(base_value, decimal_places)
+
+        return converted_value
 class Product(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField(blank=True, null=True)
@@ -61,7 +88,8 @@ class Product(models.Model):
         """
         Calcula el stock total sumando las cantidades restantes de todas las unidades.
         """
-        return sum(unit.remaining_quantity for unit in self.stock_units.all())
+        print( self )
+        return unit.reverse_to( unit, sum(unit.remaining_quantity for unit in self.stock_units.all()) )
 
     def add_stock(self, quantity, unit):
         """
@@ -101,45 +129,49 @@ class Product(models.Model):
         Returns:
             bool: True si se pudo restar el stock, False en caso contrario.
         """
-        if quantity <= 0:
-            raise ValueError("La cantidad a restar debe ser mayor que cero.")
-
-        if stock_id is not None:
-            stock_units = self.stock_units.filter(id=stock_id)
-        else:
-            # Obtener las unidades de stock disponibles, ordenadas por si están fraccionadas o no
-            stock_units = self.stock_units.filter(remaining_quantity__gt=0).order_by('is_cut')
+       
+        productunit = self.units.filter(id=unit_id).first()
+        stock_array = []
         
-            if unit_id is not None:
-                productunit = self.units.filter(id=unit_id).first()
-                if productunit is None:
-                    raise ValueError("La unidad especificada no está asociada a este producto.")
-                unit_conversion = productunit.unit.convert_to(productunit.unit, float(quantity) * productunit.quantity)
-            else:
-                productunit = self.units.filter(is_main = True).first()
-                unit_conversion = productunit.unit.convert_to(productunit.unit, float(quantity) * productunit.quantity)
-
-        array_stock_units = []
-        
-        for stock_unit in stock_units:
-
-            stock_conversion = stock_unit.product.units.filter(is_main=True).first().unit.convert_to(stock_unit.product.units.filter(is_main=True).first().unit, stock_unit.remaining_quantity)
-            unit_conversion =  float(stock_conversion) - float(unit_conversion) 
+        unit_conversion = productunit.unit.convert_to(productunit.unit, float(quantity) * productunit.quantity)
+        unit_remaining = float(unit_conversion) 
+                 
+        if(productunit.is_main):
             
-            stock_unit.remaining_quantity = unit_conversion if unit_conversion <= stock_conversion else 0
-            array_stock_units.append(stock_unit)
+            stocks = self.stock_units.filter(is_cut=False)
+            
+            for stock in stocks:
+
+                stock_conversion = 0
                 
-            if unit_conversion == 0:
-                break
-                
-        if unit_conversion > 0:
-            return False
-            raise ValueError("No hay suficiente stock para restar la cantidad solicitada.")
+                if stock.remaining_quantity == stock.original_quantity:
+                    
+                    stock_conversion = productunit.unit.convert_to(productunit.unit, stock.remaining_quantity)
+                    unit_remaining -= float(stock_conversion) 
+                    stock.remaining_quantity = 0
+                    stock_array.append(stock)
+              
+                if unit_remaining is not None and  unit_remaining <= 0:
+                    break;
+                         
         else:
-            for stock_unit in array_stock_units:
-                stock_unit.save()    
+            
+            stock = self.stock_units.filter(id=stock_id).first()
+            
+            stock_conversion = stock.product.units.filter(is_main=True).first().unit.convert_to(stock.product.units.filter(is_main=True).first().unit, stock.remaining_quantity)
+            unit_remaining =   float(unit_conversion) - float(stock_conversion) 
+            new_quantity = float(stock_conversion) - float(unit_conversion)
+            
+            stock.remaining_quantity = stock.product.units.filter(is_main=True).first().unit.reverse_to(stock.product.units.filter(is_main=True).first().unit, new_quantity)
+            stock_array.append(stock)
+
+        if unit_remaining is not None and  unit_remaining <= 0:
+            for stock in stock_array:
+                stock.save()
+        else:
+            return Response({"message": "No hay stock suficiente"}, status=status.HTTP_400_BAD_REQUEST)
         
-        return True
+        return Response({"message": "Operación realizada con éxito."}, status=status.HTTP_200_OK)
      
     @property
     def total_stock(self):

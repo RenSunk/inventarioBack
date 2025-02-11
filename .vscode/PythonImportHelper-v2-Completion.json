@@ -137,6 +137,14 @@
         "documentation": {}
     },
     {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "Unit",
         "importPath": "inventario.models",
         "description": "inventario.models",
@@ -238,6 +246,14 @@
         "description": "rest_framework.views",
         "isExtraImport": true,
         "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
         "documentation": {}
     },
     {
@@ -551,7 +567,7 @@
         "kind": 6,
         "importPath": "inventario.Views.VenderProducto.view",
         "description": "inventario.Views.VenderProducto.view",
-        "peekOfCode": "class VenderProducto(APIView):\n    def post(self, request):\n        data = request.data\n        quantity = data['quantity']\n        stock_id = data['stock_id'] if 'stock_id' in data else None\n        unit_id = data['unit_id']\n        Product.objects.get(id=data['producto_id']).remove_stock(\n            Decimal(quantity), stock_id, unit_id\n        )\n        return Response({\"message\": \"Operación realizada con éxito.\"}, status=status.HTTP_200_OK)",
+        "peekOfCode": "class VenderProducto(APIView):\n    def post(self, request):\n        data = request.data\n        quantity = data['quantity']\n        stock_id = data['stock_id'] if 'stock_id' in data else None\n        unit_id = data['unit_id']\n        return Product.objects.get(id=data['producto_id']).remove_stock(\n            Decimal(quantity), stock_id, unit_id\n        )",
         "detail": "inventario.Views.VenderProducto.view",
         "documentation": {}
     },

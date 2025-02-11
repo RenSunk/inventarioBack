@@ -10,10 +10,9 @@ class VenderProducto(APIView):
         quantity = data['quantity']
         stock_id = data['stock_id'] if 'stock_id' in data else None
         unit_id = data['unit_id']
-        Product.objects.get(id=data['producto_id']).remove_stock(
+        
+        return Product.objects.get(id=data['producto_id']).remove_stock(
             Decimal(quantity), stock_id, unit_id
         )
-        
-        return Response({"message": "Operación realizada con éxito."}, status=status.HTTP_200_OK)
 
 
