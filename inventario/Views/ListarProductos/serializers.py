@@ -23,11 +23,11 @@ class ProductUnitSerializer(serializers.ModelSerializer):
         model = ProductUnit
         fields = '__all__'
 
-class ProductoSerializer(serializers.ModelSerializer):
+class ProductVariantSerializer(serializers.ModelSerializer):
     units = ProductUnitSerializer(many=True, read_only=True)
     stock_units = StockUnitSerializer(many=True, read_only=True)
     total_stock = serializers.IntegerField(read_only=True)
     class Meta:
-        model = Product
+        model = ProductVariant
         fields = '__all__'
-        
+

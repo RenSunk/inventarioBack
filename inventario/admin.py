@@ -4,9 +4,9 @@ from django.contrib import admin
 
 from .models import *
 
+admin.site.register(ProductVariant)
 admin.site.register(ConversionCategory)
 admin.site.register(Unit)
-admin.site.register(Product)
 
 admin.site.register(StockUnit)
 admin.site.register(ProductUnit)
