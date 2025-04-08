@@ -93,13 +93,23 @@ WSGI_APPLICATION = 'inventarioBack.wsgi.application'
 
 DATABASES = {
     'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'proyecto_producto',
+        'USER': 'neondb_owner',
+        'PASSWORD': 'npg_OoRm43Wkfubw',
+        'HOST': 'ep-lucky-thunder-a2qlhdmi-pooler.eu-central-1.aws.neon.tech',
+        'PORT': '5432',
+    },
+    
+}
+
+"""
+    'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
         'ATOMIC_REQUESTS': True,  # Activa transacciones automáticas
     }
-}
-
-
+    """
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
