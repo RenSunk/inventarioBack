@@ -5,13 +5,35 @@ from inventario.Views.ListarProductos.serializers import ProductVariantSerialize
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework.permissions import IsAuthenticated
 
+from rest_framework.pagination import PageNumberPagination
+from rest_framework import pagination
+
+class LargeResultsSetPagination(PageNumberPagination):
+    page_size = 10
+    page_size_query_param = 'page_size'
+
 class ListarProductos(APIView):
+
     authentication_classes = [JWTAuthentication]
     permission_classes = [IsAuthenticated]
+    pagination_class = LargeResultsSetPagination
 
     def get(self, request):
 
+        nombre = request.query_params.get('name', '')
+
         user = request.user
-        productos = ProductVariant.objects.filter(account=user.cliente)
-        serializer = ProductVariantSerializer(productos, many=True)
+        productos = ProductVariant.objects.filter(name__icontains=nombre, account=user.cliente)
+
+        paginator = self.pagination_class()
+        paginated_queryset = paginator.paginate_queryset(productos, request)
+
+        if paginated_queryset is not None:
+            serializer = ProductVariantSerializer(productos, many=True)
+            return paginator.get_paginated_response(serializer.data)
+        else:
+            serializer = ProductVariantSerializer(productos, many=True)
+            return Response(serializer.data, status=status.HTTP_200_OK)
+
+
         return Response(serializer.data)
