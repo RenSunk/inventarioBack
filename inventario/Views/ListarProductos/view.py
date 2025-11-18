@@ -9,11 +9,12 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.pagination import PageNumberPagination
 from rest_framework import pagination
 
+
 class LargeResultsSetPagination(PageNumberPagination):
     page_size = 10
-    page_size_query_param = 'page_size'
+    page_size_query_param = "page_size"
 
-    
+
 class ListarProductos(APIView):
 
     authentication_classes = [JWTAuthentication]
@@ -22,11 +23,13 @@ class ListarProductos(APIView):
 
     def get(self, request):
 
-        nombre = request.query_params.get('name', '')
+        nombre = request.query_params.get("name", "")
 
         user = request.user
-        productos = ProductVariant.objects.filter(name__icontains=nombre, account=user.cliente)
-
+        productos = ProductVariant.objects.filter(
+            name__icontains=nombre, account=user.cliente, status=1
+        ).order_by("id")
+        
         paginator = self.pagination_class()
         paginated_queryset = paginator.paginate_queryset(productos, request)
 
